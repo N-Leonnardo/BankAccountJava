@@ -9,5 +9,9 @@ public class Order{
 
     public Order(String name){
         this.name = name;
+        this.items = new ArrayList<Item>();
+    }
+    public Order(){
+        this.name = "Guest";
     }
 }
